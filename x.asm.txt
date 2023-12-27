@@ -1,0 +1,8 @@
+ORG 0x100
+
+MOV AX, 15 ; First operand
+MOV BX, 5 ; Second operand
+MUL BX    ; Multiply AX by BX, result is in AX
+
+MOV AX, 0x4C00
+INT 0x21
